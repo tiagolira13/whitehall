@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake', '10.1.0'
-gem 'rails', '4.1.9'
+gem 'rails', '4.2.0'
 gem 'statsd-ruby', '~> 1.2.1', require: 'statsd'
 gem 'mysql2'
 gem 'jquery-rails'
@@ -12,7 +12,7 @@ gem 'validates_email_format_of'
 gem 'friendly_id', '5.0.4'
 gem 'babosa'
 gem 'nokogiri'
-gem 'slimmer', '6.0.0'
+gem 'slimmer', '7.0.0'
 gem 'plek', '1.10.0'
 gem 'isbn_validation'
 gem 'gds-sso', '~> 10.0'
@@ -57,7 +57,7 @@ end
 if ENV['GOVSPEAK_DEV']
   gem 'govspeak', path: '../govspeak'
 else
-  gem 'govspeak', '~> 3.2.0'
+  gem 'govspeak', '~> 3.3.0'
 end
 
 if ENV['FRONTEND_TOOLKIT_DEV']
